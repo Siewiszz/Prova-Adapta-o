@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background: transparent;
+    text-align: center;
+    padding: 1em 2em;
+    margin: 10px;
+    border-radius: 10px;
+}
+.banner__titulo{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "jost";
+    color: #000000;
+}

@@ -1,0 +1,33 @@
+.cabeçalho__menu-quadriculas{
+    width: 30px;
+    height: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: center;
+}
+.cabeçalho{
+    background-color: #b7d4a8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1em 2em;
+    margin: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 30px;
+}
+.container__botao:checked~.lista-menu{
+    display: block;
+}
+.container__botao{
+    display: none;
+}
