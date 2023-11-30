@@ -15,3 +15,8 @@
     font-family: "jost";
     color: #000000;
 }
+.gallerry{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
